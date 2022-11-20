@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Carlendar </title>
+    </head>
+    <body style="text-align:center;" onload="javascript:changelabel()">
+        <h1> Carlendar </h1>
+        <br>
+        <div id="carlender">
+            <div id="date">
+                <label id ="date"></label>
+            </div>
+            <br>
+            <div id="nameofdays">
+                <label id="so">S</label>
+                <label id="mo">M</label>
+                <label id="di">D</label>
+                <label id="mi">M</label>
+                <label id="do">D</label>
+                <label id="fr">F</label>
+                <label id="sa">S</label>
+                <br>
+            </div>
+            <div id="days">
+                
+                <div id="row1">
+                    <label id="d1"></label>
+                    <label id="d2"></label>
+                    <label id="d3"></label>
+                    <label id="d4"></label>
+                    <label id="d5"></label>
+                    <label id="d6"></label>
+                    <label id="d7"></label>
+                    <br>
+                </div>
+
+                <div id="row2">
+                    <label id="d8"></label>
+                    <label id="d9"></label>
+                    <label id="d10"></label>
+                    <label id="d11"></label>
+                    <label id="d12"></label>
+                    <label id="d13"></label>
+                    <label id="d14"></label>
+                    <br>
+                </div>
+
+                <div id="row3">
+                    <label id="d15"></label>
+                    <label id="d16"></label>
+                    <label id="d17"></label>
+                    <label id="d18"></label>
+                    <label id="d19"></label>
+                    <label id="d20"></label>
+                    <label id="d21"></label>
+                    <br>
+                </div>
+
+                <div id="row4">
+                    <label id="d22"></label>
+                    <label id="d23"></label>
+                    <label id="d24"></label>
+                    <label id="d25"></label>
+                    <label id="d26"></label>
+                    <label id="d27"></label>
+                    <label id="d28"></label>
+                    <br>
+                </div>
+
+                <div id="row5">
+                    <label id="d29"></label>
+                    <label id="d30"></label>
+                    <label id="d31"></label>
+                    <label id="d32"></label>
+                    <label id="d33"></label>
+                    <label id="d34"></label>
+                    <label id="d35"></label>
+                </div>
+
+            </div>
+            <button id="monthminus" onclick="monthchange(-1)"> &#11164 </button>             <!-- add listener for arrow keys -->
+            <button id="monthplus" onclick="monthchange(1)"> &#10148 </button>
+        </div>
+
+        <link rel="stylesheet" type="text/css" href="carlender.css" />
+        <script src="carlender.js"></script>
+    </body>
+</html> 

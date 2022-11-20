@@ -1,0 +1,186 @@
+html{
+    margin:auto;
+}
+
+head{
+    background-color: white;
+}
+
+body {
+    background-color: white;  
+    margin:auto;
+}
+
+#carlender{
+    position: relative;
+    background-color: #212121;
+    color: aliceblue;
+    margin:auto;
+    width: 24vw;
+    height: 24vw;
+    border-radius: 7%;
+}
+
+#days, #nameofdays{
+    position: relative;
+    background-color: #313131;
+    margin-top: 5;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#date{
+    position: relative;
+    margin-top: 0%;
+    font-size: 3vw;
+    height: 3vw;
+    user-select: none;
+}
+
+#nameofdays{
+    color: #212121;
+    font-size: 2vw;
+    height: 2.5vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+#days{
+    font-size: 1.5vw;
+    margin-bottom: 12%;
+    height: 14.5vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+#sa,#so,#mo,#di,#mi,#do,#fr{
+    position: absolute;
+    margin-top: 0.7%;
+    font-size: 1.7vw;
+    user-select: none;
+    background-color: rgb(248, 156, 145);
+    border-radius: 100%;
+}
+
+#row1{
+    position: relative;
+    height: 10%;
+    top:3%;
+}
+
+#row1  > *,#row2 > *,#row3 > *,#row4 > *,#row5 > *{
+    color: aliceblue;
+    border-radius: 100%;
+}
+
+#row1  > *:hover,#row2 > *:hover,#row3 > *:hover,#row4 > *:hover,#row5 > *:hover{
+    color: yellowgreen;
+}
+
+#row2{
+    position: relative;
+    height: 10%;
+    top:13%;
+}
+
+#row3{
+    position: relative;
+    height: 10%;
+    top:23%;
+}
+
+#row4{
+    position: relative;
+    height: 10%;
+    top:33%;
+}
+
+#row5{
+    position: relative;
+    height: 10%;
+    top:43%;
+}
+
+#d1,#d8,#d15,#d22,#d29,#so{
+    position: absolute;
+    user-select: none;
+    width: 10%;
+    right: 85.5%;
+}
+
+#d2,#d9,#d16,#d23,#d30,#mo{
+    position: absolute;
+    user-select: none;
+    width: 10%;
+    right: 72%;
+}
+
+
+#d3,#d10,#d17,#d24,#d31,#di{
+    position: absolute;
+    user-select: none;
+    width: 10%;
+    right: 58.4%;
+}
+
+#d4,#d11,#d18,#d25,#d32,#mi{
+    position: absolute;
+    user-select: none;
+    width: 10%;
+    right: 44.8%;
+}
+
+#d5,#d12,#d19,#d26,#d33,#do{
+    position: absolute;
+    user-select: none;
+    width: 10%;
+    right: 31.2%;
+}
+
+#d6,#d13,#d20,#d27,#d34,#fr{
+    position: absolute;
+    user-select: none;
+    width: 10%;
+    right: 17.6%;
+}
+
+#d7,#d14,#d21,#d28,#d35,#sa{
+    position: absolute;
+    user-select: none;
+    width: 10%;
+    right:4%;
+}
+
+
+#monthplus, #monthminus{
+    position: absolute;
+    width: 44%;
+    height: 9%;
+    background-color: #313131;
+    border-color: #313131;
+    font-size: 0.7vw;
+}
+
+#monthplus {
+    right: 5%;
+    bottom: 1%;
+    border-radius: 7%;
+    border-radius: 30%;
+}
+
+#monthminus{
+    left: 5%;
+    bottom: 1%;
+    border-radius: 30%;
+}
+
+#monthminus, #monthplus{
+    color:aliceblue;
+    border-radius: 4em;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
